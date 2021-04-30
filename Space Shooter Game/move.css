@@ -1,0 +1,147 @@
+#square {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  visibility: hidden;
+}
+
+#level {
+  visibility: hidden;
+  width: 500px;
+  height: 0px;
+}
+
+#start {
+  border: 6px solid #FFE81F;
+  border-radius: 30px;
+  padding-left: 25px;
+  padding-right: 10px;
+  width: 700px;
+  height: 175px;
+  cursor: pointer;
+}
+
+#rebels{
+  left:36%;
+  cursor: pointer;
+
+}
+
+#empire{
+  left:43%;
+  cursor: pointer;
+}
+
+
+html,body {
+  background-color: black;
+  background-image: url("space.png");
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  user-select: none;
+}
+
+.team{
+  width: 10%;
+  height: auto;
+  position:relative;
+}
+
+.boss{
+  position:absolute;
+  width:160px;
+  height:auto;
+}
+
+.missile {
+  height: 50px;
+  width: 20px;
+  position: absolute;
+}
+
+.alien {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+}
+
+.explosion {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+}
+
+.bigExplosion {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+.laser{
+  position: absolute;
+  height: 50px;
+  width: 15px;
+}
+
+.restart{
+  cursor:pointer;
+  width: 500px;
+  border: 6px solid #FFE81F;
+  border-radius: 30px;
+  padding-left: 25px;
+  padding-right: 10px;
+}
+
+.finalScore {
+  font-size: 70px;
+}
+
+h2 {
+  color: #FFE81F;
+  position: relative;
+  right: 2%;
+  top:1%;
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: right;
+  font-family:'Star Jedi';
+  cursor: default;
+
+
+}
+
+h1 {
+  color: #FFE81F;
+  font-size: 100px;
+  margin: auto auto;
+  position:relative;
+  top: 7%;
+  text-align: center;
+  font-family:'Star Jedi';
+  cursor: default;
+}
+
+h3 {
+  color: #FFE81F;
+  font-size: 60px;
+  margin: auto auto;
+  position:relative;
+  top: 10%;
+  text-align: center;
+  font-family:'Star Jedi';
+  cursor: default;
+
+}
+
+h4 {
+  color: #FFE81F;
+  font-size: 30px;
+  margin: auto auto;
+  position:relative;
+  text-align: center;
+  font-family:'Star Jedi';
+  cursor: default;
+
+}
